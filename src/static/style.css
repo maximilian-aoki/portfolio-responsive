@@ -14,3 +14,27 @@ body {
 * {
   outline: 1px solid grey;
 }
+
+/* LAYOUT */
+
+/* header */
+header {
+}
+header img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+/* main content */
+main {
+}
+
+/* footer */
+footer {
+}
+footer img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+/* MEDIA QUERIES */
