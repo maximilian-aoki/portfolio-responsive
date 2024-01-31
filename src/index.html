@@ -9,12 +9,24 @@
     <header class="grid">
       <div class="skew-deco"></div>
       <div class="profile-container">
-        <img src="./static/images/jpg/max-header-portrait.jpg" alt="">
+        <picture>
+          <source media="(max-width: 499px)" srcset="./static/images/jpg/max-header-portrait.jpg">
+          <source media="(min-width: 500px)" srcset="./static/images/jpg/max-header-square.jpg">
+          <img
+            src="./static/images/jpg/max-header-portrait.jpg"
+            alt="">
+        </picture>
         <h1 class="name">Maximilian Aoki</h1>
       </div>
-      <div class="about-info grid">
+      <div class="about-info">
+        <div class="float"></div>
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus culpa minus ad illum omnis velit modi ipsum cupiditate assumenda aliquam, fugit, corporis unde quisquam nostrum! Inventore molestiae vero enim! Molestiae recusandae corporis, eum inventore culpa minus id ad, asperiores praesentium suscipit quia. Eligendi minima voluptatibus harum consequuntur molestiae, deleniti blanditiis.</p>
+        <div class="header-logos grid">
+          <img src="./static/images/svg/github.svg" alt="github logo">
+          <img src="./static/images/svg/linkedin.svg" alt="linkedin logo">
+          <img src="./static/images/svg/twitter.svg" alt="twitter logo">
+        </div>
       </div>
     </header>
     <main class="grid">
