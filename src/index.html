@@ -131,7 +131,13 @@
         <p>123 Random Road</p>
         <p>Random Town, California 123456</p>
       </div>
-      <img src="./static/images/jpg/max-footer-portrait.jpg" alt="Maximilian Aoki">
+      <picture>
+        <source media="(max-width: 999px)" srcset="./static/images/jpg/max-footer-portrait.jpg">
+        <source media="(min-width: 1000px)" srcset="./static/images/jpg/max-footer-landscape.jpg">
+        <img
+          src="./static/images/jpg/max-footer-portrait.jpg"
+          alt="">
+      </picture>
     </footer>
   </body>
 </html>
