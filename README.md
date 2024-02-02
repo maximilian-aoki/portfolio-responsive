@@ -3,6 +3,7 @@
 A demo portfolio built with vanilla HTML and CSS. Highlights responsiveness with 3 breakpoints (mobile, tablet, desktop) and built with attention to WCAG 2.2.
 
 Link to Demo:
+https://maximilian-aoki.github.io/portfolio-responsive/
 
 RESPONSIVE FEATURES
 
